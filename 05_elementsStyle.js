@@ -1,6 +1,5 @@
-function main() {
-    let elements = document.getElementsByTagName("button");
-    return elements.style.backgroundColor = "red";
-    
-}
-console.log(main());
+
+let elements = document.getElementsByTagName("button");
+console.log(elements);
+array = [...elements];
+array.map((elements) => elements.style.backgroundColor = "red");
