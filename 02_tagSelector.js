@@ -1,6 +1,5 @@
 function main() {
-    let element = document.getElementsByTagName("button");
-    return element;
+    return document.getElementsByTagName("button");
 }
 // console.log(main());
 // console.log(main().innerHTML);

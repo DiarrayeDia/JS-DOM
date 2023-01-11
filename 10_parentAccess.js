@@ -1,5 +1,5 @@
-function main(node_element) {
-    return node_element.parentNode;
+function main(node) {
+    return node.parentNode;
 }
-console.log(main());
+
 module.exports = main;
